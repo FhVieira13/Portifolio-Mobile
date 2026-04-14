@@ -1,12 +1,124 @@
-📱 My Portfolio App — Flávio HenriqueEste é um aplicativo de portfólio mobile desenvolvido para centralizar minhas redes profissionais e demonstrar meu nível técnico em diversas áreas da programação.📖 Visão GeralO projeto foi construído com foco em UI/UX moderna, utilizando um tema escuro (Dark Mode) com contrastes em dourado para destacar elementos interativos.Principais Funcionalidades:Navegação em Pilha: Transições suaves entre a tela de perfil e a listagem de habilidades.Central de Links: Integração direta com APIs nativas para abertura de links externos (LinkedIn, GitHub e Instagram).Visualização de Habilidades: Dashboard interativo com sistema de classificação por estrelas para cada competência técnica.🛠️ Tecnologias UtilizadasFerramentaDescriçãoReact NativeFramework para construção da interface.Expo GoAmbiente de desenvolvimento e execução mobile.React NavigationBiblioteca para gerenciamento de fluxo entre telas.Linking APIMódulo para redirecionamento a URLs externas.🎨 Identidade VisualO design foi pensado para passar seriedade e modernidade:Cores Primárias: Fundo Grafite (#121212) e Acentos em Amarelo/Ouro (#EAB308).Componentes: Botões personalizados com sombras (elevation) e bordas arredondadas para um aspecto "premium".📂 Estrutura do ProjetoPlaintext├── src/
-│   ├── components/
-│   │   └── Header.js      # Componente de cabeçalho padronizado
-│   └── screens/
-│       ├── MainScreen.js  # Perfil, bio e links sociais
-│       └── SkillScreen.js # Lista técnica com rating de estrelas
-├── App.js                 # Configuração de rotas e navegação
-└── package.json           # Dependências do projeto
-🚀 Como testarPara rodar o projeto localmente via Expo Go:Clone o repositório:Bashgit clone https://github.com/FhVieira13/seu-repositorio.git
-Instale as dependências:Bashnpm install
-Inicie o servidor do Expo:Bashnpx expo start
-Escaneie o QR Code com o app do Expo Go no seu celular (Android ou iOS).👤 DesenvolvedorNome: Flávio HenriqueLinkedIn: flavio-henrique-984951223GitHub: @FhVieira13Este projeto foi desenvolvido como parte de um estudo de navegação e interface com React Native.
+# 📱 Portfólio Mobile - Flávio Henrique
+
+Aplicativo mobile desenvolvido com **React Native + Expo Go**, com o objetivo de apresentar meu perfil profissional, redes sociais e habilidades de forma moderna e interativa.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+* ⚛️ React Native
+* 🚀 Expo Go
+* 🔗 React Navigation (Stack)
+* 🎨 StyleSheet (estilização customizada)
+
+---
+
+## 📲 Funcionalidades
+
+✔️ Tela principal com:
+
+* Acesso rápido para minhas redes sociais:
+
+  * LinkedIn
+  * GitHub
+  * Instagram
+
+✔️ Navegação entre telas
+
+✔️ Tela de habilidades com:
+
+* Lista de skills
+* Nível representado por estrelas ⭐
+
+---
+
+## 🖥️ Estrutura do Projeto
+
+```
+📁 src
+ ┣ 📁 screens
+ ┃ ┣ 📄 MainScreen.js
+ ┃ ┗ 📄 SkillScreen.js
+ ┣ 📁 components
+ ┃ ┗ 📄 Header.js
+📄 App.js
+```
+
+---
+
+## 📸 Preview
+
+💡 Tela principal com botões interativos e navegação
+💡 Tela de skills com avaliação visual
+
+---
+
+## ⚙️ Como rodar o projeto
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
+```
+
+### 2. Acesse a pasta
+
+```bash
+cd seu-repo
+```
+
+### 3. Instale as dependências
+
+```bash
+npm install
+```
+
+### 4. Inicie o projeto
+
+```bash
+npx expo start
+```
+
+📱 Depois:
+
+* Escaneie o QR Code com o app **Expo Go**
+* Ou rode em um emulador
+
+---
+
+## 📌 Sobre o projeto
+
+Esse app foi desenvolvido como um **portfólio pessoal mobile**, com foco em:
+
+* Interface moderna 🌙 (tema dark)
+* Navegação simples e intuitiva
+* Código limpo e organizado
+
+---
+
+## 👨‍💻 Autor
+
+**Flávio Henrique**
+
+🔗 LinkedIn: https://www.linkedin.com/in/flavio-henrique-984951223/
+💻 GitHub: https://github.com/FhVieira13
+📸 Instagram: https://www.instagram.com/fh.vieira/
+
+---
+
+## ⭐ Melhorias futuras
+
+* Adicionar projetos reais no app
+* Integração com API
+* Animações com Reanimated
+* Modo responsivo mais avançado
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+🔥 Se curtir o projeto, deixa uma estrela no repositório!
