@@ -1,41 +1,12 @@
-🦇 My Portfolio Mobile
-Este é um aplicativo de portfólio pessoal desenvolvido com React Native e Expo Go, apresentando uma interface moderna com tema escuro e detalhes em dourado.
-
-📱 Sobre o Projeto
-O aplicativo funciona como um cartão de visitas digital, permitindo que usuários visualizem informações profissionais, acessem redes sociais e confiram o nível de proficiência em diversas tecnologias de forma interativa.
-
-🛠️ Tecnologias e Bibliotecas
-React Native: Framework principal para a interface mobile.
-
-Expo Go: Utilizado para o fluxo de desenvolvimento e testes rápidos.
-
-React Navigation (Stack): Gerenciamento de rotas e navegação entre as telas de Perfil e Habilidades.
-
-Linking API: Integração para abrir URLs externas de redes sociais.
-
-StyleSheet: Estilização personalizada com foco em experiência de usuário (UX) "Dark Mode".
-
-🚀 Funcionalidades Principais
-Navegação de Telas: Sistema de troca de telas fluido entre a Home e a seção de Skills.
-
-Links Sociais: Botões interativos com acesso direto ao LinkedIn, GitHub e Instagram.
-
-Dashboard de Habilidades: Lista de competências técnicas (React Native, Game Dev, Back-end e Front-end) com representação visual por estrelas.
-
-Feedback de Erro: Tratamento de exceções ao tentar abrir links inválidos ou não suportados.
-
-📁 Estrutura de Telas
-MainScreen (Perfil): Exibe o nome do desenvolvedor ("Flávio Henrique") e os botões de ação social.
-
-SkillScreen (Habilidades): Utiliza um FlatList para renderizar as competências técnicas com um sistema de pontuação de 1 a 6 estrelas.
-
-🎨 Paleta de Cores
-O projeto utiliza uma identidade visual sofisticada:
-
-Background: #121212 (Escuro profundo).
-
-Destaque: #EAB308 (Amarelo/Dourado para botões primários e ícones).
-
-Texto: Variando entre #FFFFFF e #E0E0E0.
-
-Desenvolvido por: Flávio Henrique
+📱 My Portfolio App — Flávio HenriqueEste é um aplicativo de portfólio mobile desenvolvido para centralizar minhas redes profissionais e demonstrar meu nível técnico em diversas áreas da programação.📖 Visão GeralO projeto foi construído com foco em UI/UX moderna, utilizando um tema escuro (Dark Mode) com contrastes em dourado para destacar elementos interativos.Principais Funcionalidades:Navegação em Pilha: Transições suaves entre a tela de perfil e a listagem de habilidades.Central de Links: Integração direta com APIs nativas para abertura de links externos (LinkedIn, GitHub e Instagram).Visualização de Habilidades: Dashboard interativo com sistema de classificação por estrelas para cada competência técnica.🛠️ Tecnologias UtilizadasFerramentaDescriçãoReact NativeFramework para construção da interface.Expo GoAmbiente de desenvolvimento e execução mobile.React NavigationBiblioteca para gerenciamento de fluxo entre telas.Linking APIMódulo para redirecionamento a URLs externas.🎨 Identidade VisualO design foi pensado para passar seriedade e modernidade:Cores Primárias: Fundo Grafite (#121212) e Acentos em Amarelo/Ouro (#EAB308).Componentes: Botões personalizados com sombras (elevation) e bordas arredondadas para um aspecto "premium".📂 Estrutura do ProjetoPlaintext├── src/
+│   ├── components/
+│   │   └── Header.js      # Componente de cabeçalho padronizado
+│   └── screens/
+│       ├── MainScreen.js  # Perfil, bio e links sociais
+│       └── SkillScreen.js # Lista técnica com rating de estrelas
+├── App.js                 # Configuração de rotas e navegação
+└── package.json           # Dependências do projeto
+🚀 Como testarPara rodar o projeto localmente via Expo Go:Clone o repositório:Bashgit clone https://github.com/FhVieira13/seu-repositorio.git
+Instale as dependências:Bashnpm install
+Inicie o servidor do Expo:Bashnpx expo start
+Escaneie o QR Code com o app do Expo Go no seu celular (Android ou iOS).👤 DesenvolvedorNome: Flávio HenriqueLinkedIn: flavio-henrique-984951223GitHub: @FhVieira13Este projeto foi desenvolvido como parte de um estudo de navegação e interface com React Native.
